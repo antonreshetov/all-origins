@@ -1,0 +1,26 @@
+{
+  "name": "all-origins",
+  "version": "1.0.0",
+  "description": "Cross origin domain access",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonreshetov/all-origins.git"
+  },
+  "keywords": [
+    "cors"
+  ],
+  "author": "Anton Reshetov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonreshetov/all-origins/issues"
+  },
+  "homepage": "https://github.com/antonreshetov/all-origins#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3"
+  }
+}
